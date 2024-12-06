@@ -1,12 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import Interiorlogo4freeimg from './assets/Interior-logo4-free-img.png';
 import './App.css';
-import Content from './components/content ';
+import Map from "./components/map/map";
+
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
-     <Content/>
+    
+     
+     <Header/>
+     <div className='main'>
+     
+     </div>
+     <Map/>
+     <Footer/>
     </div>
   );
 }

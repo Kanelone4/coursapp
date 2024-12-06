@@ -20,6 +20,7 @@ const Content: React.FC = () => {
             
             </div>
             <div className='write'>
+              <p>Read more</p>
             </div>
           
         </div>
