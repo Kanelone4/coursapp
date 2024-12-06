@@ -1,0 +1,121 @@
+.container-fluid {
+    background-color: #000; /* Fond noir */
+    color: white;           /* Texte blanc */
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    margin-top: 70px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 50px; /* Ajustement pour un espacement raisonnable */
+  }
+  
+  .container .h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .lehaut {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto; /* Centrage horizontal */
+    padding: 0 20px;
+    gap: 20px; /* Espace entre les sections */
+  }
+  
+  .lehaut div {
+    flex: 1; /* Étire les sections pour occuper toute la largeur disponible */
+    text-align: center; /* Centre le texte dans chaque section */
+  }
+  
+  .lehaut h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .lehaut p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Centre les icônes */
+    margin-top: 40px;
+  }
+  
+  .social li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+  }
+  
+  .social li a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .lebas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Centre le texte */
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 14px;
+    gap: 20px; /* Espace entre les sections */
+  }
+  
+  .lebas div {
+    flex: 1; /* Étire les sections pour occuper toute la largeur */
+    text-align: center; /* Centre le texte dans chaque div */
+  }
+  
+  .lebas .droite ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Centre les liens dans leur div */
+  }
+  
+  .lebas .droite ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .lebas .droite ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .titre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  li a span {
+    font-size: 20px; /* Ajustez selon la taille des icônes */
+  }
+  
