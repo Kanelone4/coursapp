@@ -1,34 +1,37 @@
 import React from 'react';
-import './App.css';
-import Content from './Components/accueil_component/content/content'; // Le fichier est content.tsx dans src/components
-import Footer from './Components/accueil_component/footer/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/components/navbar/Navbar';
-import BlogPosts from './Components/accueil_component/BlogPosts/blogPosts';
-import LeftLayout from './Components/accueil_component/LeftLayout/leftLayout';
 import Home from './Components/accueil_component/home/home';
+import Content from './Components/accueil_component/content/content';
+import LeftLayout from './Components/accueil_component/LeftLayout/leftLayout';
+import BlogPosts from './Components/accueil_component/BlogPosts/blogPosts';
+import Footer from './Components/accueil_component/footer/footer';
+import LivingRoom from './Pages/LivingRoom';
+import LivingRoom2 from './Pages/LivingRoom2';
 
 function App() {
   return (
-    <div className="App">
-      <div >
+    <Router>
+      <div className="App">
+        {/* Navbar visible sur toutes les pages */}
         <Navbar />
-      </div>
-      <div >
-        <Home />
-      </div>
-      <div >
+
+        <Routes>
+          {/* Route principale pour l'accueil */}
+          <Route path="/" element={<Home />} />
+
+          {/* Autres pages */}
+          <Route path="/Living-Room" element={<LivingRoom />} />
+          <Route path="/Living-Room/page2" element={<LivingRoom2 />} />
+        </Routes>
+
+        {/* Composants fixes */}
         <Content />
-      </div>
-      <div >
         <LeftLayout />
-      </div>
-      <div >
         <BlogPosts />
-      </div>
-      <div >
         <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 

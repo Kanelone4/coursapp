@@ -48,7 +48,7 @@ const BlogPosts = () => {
           <p style={{ position: 'relative', left: '120px', top: '-562px', fontSize: '16px', fontFamily: 'sans-serif',textAlign: 'left',color: 'black' }} >
           Nisl vel urna debitis morbi fringilla malesuada<br /> maiores optio! Ratione, facilis. Illum<br /> accusantium eros sed tristique, cubilia? .<br /> Habitasse urna molestie hendrerit,<br /> animi eros
           </p>
-          <hr style={{ position: 'relative',width:'104%',left:'47%',top:'-454px' }} className="my-4 border-gray-300" />
+          <hr style={{ position: 'relative',width:'104%',left:'47%',top:'-499px' }} className="my-4 border-gray-300" />
       </div>
 
       <div className="relative w-1/3" style={{ position: 'relative', left:'-385px',top:'-380px' }}>
