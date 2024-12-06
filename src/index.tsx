@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Component from './Components/Left-layout/Component';
+import LeftLayout from './Components/accueil_component/LeftLayout/leftLayout';
 import 'boxicons/css/boxicons.min.css';
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +14,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Component />
     <App />
   </React.StrictMode>
 );

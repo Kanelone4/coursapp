@@ -1,3 +1,8 @@
+ .contenu{
+    position: relative;
+    top: 420px;
+    left: 70px;
+ }
 .content {
     display: flex;
     flex-direction: column;
@@ -22,7 +27,7 @@
 }
 
 .ecrit p {
-    font-size: 10%;
+    font-size: 80%;
     color: red;
     margin: 5px 0;
 }

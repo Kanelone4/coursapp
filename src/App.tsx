@@ -1,23 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-<<<<<<< HEAD
-import Content from './components/content';
-import Footer from './Components/footer/footer';
+import Content from './Components/accueil_component/content/content'; // Le fichier est content.tsx dans src/components
+import Footer from './Components/accueil_component/footer/footer';
+import Navbar from './Components/components/navbar/Navbar';
+import BlogPosts from './Components/accueil_component/BlogPosts/blogPosts';
+import LeftLayout from './Components/accueil_component/LeftLayout/leftLayout';
+import Home from './Components/accueil_component/home/home';
 
 function App() {
   return (
     <div className="App">
-      <Content />
-      <Footer />
-=======
-import Navbar from './components/navbar/Navbar';
-
-function App() {
-  return (
-    <div>
-      <Navbar />
->>>>>>> navbar
+      <div >
+        <Navbar />
+      </div>
+      <div >
+        <Home />
+      </div>
+      <div >
+        <Content />
+      </div>
+      <div >
+        <LeftLayout />
+      </div>
+      <div >
+        <BlogPosts />
+      </div>
+      <div >
+        <Footer />
+      </div>
     </div>
   );
 }
