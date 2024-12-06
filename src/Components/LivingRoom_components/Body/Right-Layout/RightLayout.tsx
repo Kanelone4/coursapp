@@ -41,22 +41,22 @@ export default function RightLayout() {
         <div>
 
             <div>
-                <p className='font-bold text-2xl'><a href="">Taciti hendrerit dis odit incidunt</a></p>
+                <p className='font-bold text-2xl'><a style={{textDecoration: 'none'}} href="">Taciti hendrerit dis odit incidunt</a></p>
                 <p style={{ color: 'red' }}>November 21, 2017 / Kitchen, Living Room, Reading Room</p>
                 <img className='my-2' src={hero01} alt="" />
                 <p className='font-light'>Cillum corrupti accumsan non cumque alias ipsa, platea! Mollis auctor, repellendus sagittis? Corporis dictumst mollis, curae. Eaque, quam per, praesent pretium eu non cumque animi dolorem […]</p>
-                <p style={{color: 'red'}} className='my-8'><a href="#">Read More »</a></p>
+                <p style={{color: 'red'}} className='my-8'><a style={{textDecoration: 'none'}} href="#">Read More »</a></p>
                 <hr />
             </div>
 
             <div className='mt-12 grid grid-cols-2 gap-12'>
                 {Read.map((item, i) => (
                     <div key={i}>
-                        <p className='font-bold text-2xl'><a href="">{item[0]}</a></p>
-                        <p className='my-2 text-xs'><a style={{ color: 'red' }} href="">{item[1]}</a></p>
+                        <p className='font-bold text-2xl'><a style={{textDecoration: 'none'}} href="">{item[0]}</a></p>
+                        <p className='my-2 text-xs'><a  style={{ color: 'red', textDecoration: 'none' }} href="">{item[1]}</a></p>
                         <img  src={item[2]} alt="" />
                         <p className='mt-5 font-light'>{item[3]}</p>
-                        <p style={{color: 'red'}} className='my-8'><a href="">{item[4]}</a></p>
+                        <p style={{color: 'red'}} className='my-8'><a style={{textDecoration: 'none'}} href="">{item[4]}</a></p>
                         <hr className='mb-0'/>
                     </div>
                 ))}
@@ -65,10 +65,10 @@ export default function RightLayout() {
             <div style={{width: '520px'}} className='flex justify-between mt-12 ml-48'>
                 <div className='flex'>
                     <div className='px-3 py-1 mr-2 font-extralight text-xl border-2 bg-red-500 text-white'>1</div>
-                    <button className='px-3 py-1 mr-2 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link to="/Living-Room/page2">2</Link></button>
+                    <button className='px-3 py-1 mr-2 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link style={{textDecoration: 'none'}} to="/Living-Room/page2">2</Link></button>
                 </div>
                 <div>
-                    <button style={{borderColor: 'red'}} className='py-2 px-7 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link to="/Living-Room/page2">Next</Link><i className='bx bx-right-arrow-alt'></i></button>
+                    <button style={{borderColor: 'red',}} className='py-2 px-7 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link style={{textDecoration: 'none'}} to="/Living-Room/page2">Next</Link><i className='bx bx-right-arrow-alt'></i></button>
                 </div>
                 
             </div>
@@ -77,6 +77,4 @@ export default function RightLayout() {
     );
 }
 
-function useState(arg0: number): [any, any] {
-    throw new Error('Function not implemented.')
-}
+

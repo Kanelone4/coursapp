@@ -6,9 +6,9 @@ interface Tags {
 
 const Tag: React.FC<Tags> = (props) => {
     return (
-        <div style={{ position: 'relative', top: '-90px' }} className="mt-6 border-2">
+        <div style={{ position: 'relative',  }} className="mt-6 border-2">
             <div className="m-6">
-                <p style={{ fontSize: '20px', fontFamily: 'sans-serif', fontWeight: 'bold',position: 'relative',top: '-10px',left: '-115px' }}className="font-bold text-2xl">Tags</p>
+                <p style={{ fontSize: '20px', fontFamily: 'sans-serif', fontWeight: 'bold',position: 'relative',top: '-10px', }}className="font-bold text-2xl">Tags</p>
                 <div className="mt-5">
                     {props.texts.map((text, index) => (
                         <div className="hover:bg-pink-400 border-2 inline-block mr-2 mt-2" key={index}>
@@ -35,7 +35,7 @@ const RecentPosts: React.FC<Posts> = (props) => {
     return (
         <div style={{ position: 'relative', top: '-80px' }} className="mt-6 border-2">
             <div className="mx-3 my-9">
-                <p style={{ fontSize: '20px', fontFamily: 'sans-serif', fontWeight: 'bold',position: 'relative',top: '-10px',left: '-95px' }}className="my-4 font-bold text-2xl">Recent Posts</p>
+                <p style={{ fontSize: '20px', fontFamily: 'sans-serif', fontWeight: 'bold',position: 'relative',top: '-10px', }}className="my-4 font-bold text-2xl">Recent Posts</p>
                 <div>
                     {props.posts.map((post, index) => (
                         <div key={index}>
@@ -61,14 +61,14 @@ const SeachBar: React.FC = () => {
     return (
         <div className="relative">
             <input style={{ width: '350px',backgroundColor:'#f4f4f7',border: '3px solid #f4f4f7',position: 'relative',top: '-40px' }} type="text" placeholder="Search..."  className=" text-base p-3 mt-5" />
-            <i className="bx bx-search text-black absolute mt-9" style={{ left: '150px',position: 'relative',top: '-112px' }}></i>
+            <i className="bx bx-search text-black absolute mt-9" style={{ left: '310px',position: 'relative',top: '-112px' }}></i>
         </div>
     );
 };
 
 const LeftLayout: React.FC = () => {
     return (
-        <div className="ml-8 relative" style={{ width: '350px', left: '1000px', top: '-200px' }}>
+        <div className="ml-8 relative" style={{ width: '350px', left: '1000px', }}>
     <div className="flex">
         {/* Barre verticale */}
 

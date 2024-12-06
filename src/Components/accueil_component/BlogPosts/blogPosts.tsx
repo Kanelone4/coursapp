@@ -3,7 +3,7 @@ import React from "react";
 const BlogPosts = () => {
     return (
 
-            <div style={{position:'relative',justifyContent:'center',alignItems:'center',top:'350px',padding:'0px',left:'40px'}}>
+            <div style={{position:'relative',justifyContent:'center',alignItems:'center',top:'550px',padding:'0px',left:'40px'}}>
                 <div>
         </div>
         <div>

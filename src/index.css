@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url(https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 
