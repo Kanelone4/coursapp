@@ -4,7 +4,7 @@ import Tag from "./TagsComponent";
 
 export default function Component() {
     return (
-        <div className="ml-8" style={{width: '350px'}}>
+        <div className="ml-16" style={{width: '350px'}}>
             <SeachBar />
 
             <RecentPosts
