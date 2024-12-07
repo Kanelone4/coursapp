@@ -1,21 +1,49 @@
-import React from 'react';
+
+
+
+
+
+
+
+
+function App() {
+  return (
+    <div>
+      <Aboutus/>
+    </div>
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Accueil from './Components/accueil_component/Accueil';
+import LivingRoom from './Pages/LivingRoom';
+import LivingRoom2 from './Pages/LivingRoom2';
+import Kitchen from './Components/Kitchen/navbar/Kitchen';
 import AboutUs from './Contents/AboutUs/Readme/Readme';
 import Logobarre from './Contents/AboutUs/Logobarre/Logobarre';
 import Footer from './Contents/AboutUs/Footer/Footer';
 import Header from './Contents/AboutUs/Header/Header';
 import Home from './Contents/AboutUs/Home/Home';
+import Interiorlogo4freeimg from './assets/Interior-logo4-free-img.png';
+import './App.css';
+import Aboutus from "./Components/ContactUs/Aboutus";
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div>
-      <main>
-        <Header/>
-        <Home/>
-        <AboutUs/> 
-        <Logobarre/>  
-        <Footer/>    
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        {/* Navbar visible sur toutes les pages */}
+        
+
+        <Routes>
+          {/* Route principale pour l'accueil */}
+          <Route path="/" element={<Accueil />} />
+
+          {/* Autres pages */}
+          <Route path="/Living-Room" element={<LivingRoom />} />
+          <Route path="/Living-Room/page2" element={<LivingRoom2 />} />
+          <Route path="/Kitchen" element={<Kitchen />} />
+        </Routes>
+        
+      </div>
+    </Router>
   );
 };
 
