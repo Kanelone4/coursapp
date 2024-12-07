@@ -1,37 +1,29 @@
 import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-// Import des composants
-import Accueil from './Components/accueil_component/Accueil'; // Page principale
+import Accueil from './Components/accueil_component/Accueil';
 import LivingRoom from './Pages/LivingRoom';
 import LivingRoom2 from './Pages/LivingRoom2';
-import Navbar from './Kitchen/navbar/Navbar'; // Navbar universelle
-import BlogPosts from './Kitchen/Body/bodyG/blogPosts';
-import Footer from './Kitchen/footer/footer';
-import Content from './Kitchen/Body/bodyG/content';
-import Component from './Kitchen/Body/bodyD/Component';
+import Kitchen from './Components/Kitchen/navbar/Kitchen';
 
 function App() {
   return (
     <Router>
       <div className="App">
         {/* Navbar visible sur toutes les pages */}
-        <Navbar />
+        
 
         <Routes>
           {/* Route principale pour l'accueil */}
           <Route path="/" element={<Accueil />} />
 
-          {/* Routes spécifiques */}
+          {/* Autres pages */}
           <Route path="/Living-Room" element={<LivingRoom />} />
           <Route path="/Living-Room/page2" element={<LivingRoom2 />} />
+          <Route path="/Kitchen" element={<Kitchen />} />
         </Routes>
-
-        {/* Contenus supplémentaires */}
-        <Content />
-        <BlogPosts />
-        <Footer />
-        <Component />
+        
       </div>
     </Router>
   );
