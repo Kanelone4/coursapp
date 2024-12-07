@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    
+  }
+  
+  .logo {
+    font-weight: bold;
+    margin-right: 250px;
+  }
+  .navigation{
+    margin-left: 10%;
+    margin-top: 0;
+  
+
+  }
+  
+  .navigation a {
+    margin: 0 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ins{
+    margin:15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .DIV h3{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans';
+    font-size: 5rem;
+    text-align: center;
+
+}
+.DIV p{
+  font-family: 'arial black';
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: center;
+    font-size: 2rem;
+
+    
+    
+}
+
+  
+.DIV{
+  background-image: url(https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2020/02/lady-in-balcony.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px;
+  background-color: rgba(0, 0, 0, 0.562);
+  z-index: 1;
+  
+}
+.DIV a{
+  color: #FFFFFF;
+
+}
+
+

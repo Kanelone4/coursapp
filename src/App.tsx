@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AboutUs from './Contents/AboutUs/Readme/Readme';
+import Logobarre from './Contents/AboutUs/Logobarre/Logobarre';
+import Footer from './Contents/AboutUs/Footer/Footer';
+import Header from './Contents/AboutUs/Header/Header';
+import Home from './Contents/AboutUs/Home/Home';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        <Header/>
+        <Home/>
+        <AboutUs/> 
+        <Logobarre/>  
+        <Footer/>    
+      </main>
     </div>
   );
-}
+};
 
 export default App;
