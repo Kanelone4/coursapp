@@ -16,7 +16,7 @@ function Navbar(): JSX.Element {
         <div style={{ marginLeft: '685px', marginTop: '-35px', fontSize: '17px', fontWeight: '700' }}>
           <nav style={{ display: 'flex', gap: '30px', justifyContent: 'center' }}>
             <a href="" style={{ textDecoration: 'none', color: 'white' }}>About Us</a>
-            {/* Remplacer les balises <a> par <Link> */}
+            
             <Link to="/Living-Room" style={{ textDecoration: 'none', color: 'white' }}>Living Room</Link>
             <a href="" style={{ textDecoration: 'none', color: 'white' }}>Kitchen</a>
             <a href="" style={{ textDecoration: 'none', color: 'white' }}>Outdoors</a>

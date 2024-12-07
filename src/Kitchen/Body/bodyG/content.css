@@ -1,0 +1,68 @@
+ .contenu{
+    position: relative;
+    top: 420px;
+    left: 10px;
+    margin-top: -180px;
+ }
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; 
+    padding: 20px 40px; 
+    font-family: Arial, sans-serif;
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+
+.ecrit {
+    text-align: left;
+    margin-bottom: 15px; 
+    padding-left: 50px;
+}
+
+.ecrit h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ecrit p {
+    font-size: 80%;
+    color: red;
+    margin: 5px 0;
+}
+
+.img {
+    margin-left: 50px; 
+    margin-top: 0;
+}
+
+.img img {
+    width: 65%; 
+    max-width: 700px;
+    height: auto; 
+    border-radius: 5px; 
+    display: block;
+    margin: 0; 
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.text p {
+    max-width: 700px; 
+    margin: 10px 0; 
+    text-align: left;
+    line-height: 1.6; 
+    color: dimgrey;
+    font-size: 95%;
+}
+.write p{
+    margin-left: 50px;
+}
+.write p{
+    color: red;
+    text-align: left;
+}
