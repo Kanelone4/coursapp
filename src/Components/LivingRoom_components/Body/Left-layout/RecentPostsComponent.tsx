@@ -21,7 +21,7 @@ export default function RecentPosts(props: Posts) {
                                     <img style={{width: '75px', height: '75px'}} src={post.img} alt="" />
                                 </div>
                                 <div className="ml-2">
-                                    <p style={{color: 'red'}} className=" font-semibold w-48"><a href="">{post.text1}</a></p>
+                                    <p style={{color: 'red'}} className=" font-semibold w-48"><a style={{textDecoration: 'none'}} href="">{post.text1}</a></p>
                                     <p className="mt-2 font-light w-48">{post.text2}</p>
                                 </div>
                             </div>

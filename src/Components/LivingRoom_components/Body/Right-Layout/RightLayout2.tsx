@@ -30,11 +30,11 @@ export default function RightLayout2() {
 
             <div style={{width: '520px'}} className='flex justify-between mt-12'>
                 <div>
-                    <button style={{borderColor: 'red'}} className='bx bx-left-arrow-alt py-2 px-7 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link to="/Living-Room">Previous</Link></button>
+                    <button style={{borderColor: 'red'}} className='bx bx-left-arrow-alt py-2 px-7 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link style={{textDecoration: 'none'}} to="/Living-Room">Previous</Link></button>
                 </div>
                 <div className='flex'>
-                    <button className='px-3 py-1 mr-2 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link to="/Living-Room">1</Link></button>
-                    <div className='px-3 py-1 mr-2 font-extralight text-xl border-2 bg-red-500 text-white'>2</div>
+                    <button  className='px-3 py-1 mr-2 font-extralight text-xl border-2 hover:bg-red-500 hover:text-white'><Link style={{textDecoration: 'none'}} to="/Living-Room">1</Link></button>
+                    <div  className='px-3 py-1 mr-2 font-extralight text-xl border-2 bg-red-500 text-white'>2</div>
                 </div>
             </div>
 
