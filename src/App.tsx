@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Footer from './Components/footer/footer';
-import Component from './Components/Left-layout/Component';
-import Header from './Components/Header/Header';
-import RightLayout from './Components/Right-Layout/RightLayout';
-import Body from './Components/Body/Body';
+import Footer from './Components/outdoots/footer/footer';
+
+import Header from './Components/outdoots/Right-Layout/Header/Header';
+import RightLayout from './Components/outdoots/Right-Layout/RightLayout';
+import Body from './Components/outdoots/Right-Layout/Body/Body';
 
 
 

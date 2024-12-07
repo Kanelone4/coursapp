@@ -4,9 +4,11 @@
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     margin: 0;
+
     position: absolute;
     
     left: 0;
+
     right: 0;
     width: 100%;
     text-align: center;
