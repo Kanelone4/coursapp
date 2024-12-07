@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import 'boxicons/css/boxicons.min.css';
 
 
@@ -97,19 +97,4 @@ const Footer = () =>{
 
 )}
 
-export default Footer
-
-function Myboutton ({title}:{title :string}) {
-    return(
-       <button> {title}</button>
-    )
-}
-
-function app(){
-    return(
-        <div>
-            <h1>Faite vos compte</h1>
-            < Myboutton title = 'décompte'/>
-        </div>
-    )
-}
+export default Footer;

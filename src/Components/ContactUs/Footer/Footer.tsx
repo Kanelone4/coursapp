@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import 'boxicons/css/boxicons.min.css';
 
 

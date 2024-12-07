@@ -1,4 +1,4 @@
-import NavBar from "../Header/NavBar_Component";
+import NavBar from "./NavBar_Component";
 
 interface Content {
     img: string,

@@ -1,7 +1,15 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: 'https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic04-free-img.jpg';
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 /* Styles ajoutés de la branche HEAD */
 body {
   margin: 0;
@@ -11,5 +19,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+=======
+
+
+
+>>>>>>> 2edfdfbb5b82cf465ba76411957e0b1c8a18a124
 
 /* Tout autre style nécessaire peut être ajouté ici */

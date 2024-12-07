@@ -1,5 +1,5 @@
 import Component from "../Left-layout/Component";
-import RightLayout from "../Right-Layout/RightLayout";
+import RightLayout from "../RightLayout";
 
 export default function Body() {
     return (
