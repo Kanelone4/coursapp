@@ -1,6 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import Interiorlogo4freeimg from './assets/Interior-logo4-free-img.png';
 import './App.css';
+
+import Aboutus from "./Components/ContactUs/Aboutus"
+
+
+
+
+function App() {
+  return (
+    <div>
+      <Aboutus/>
+    </div>
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Accueil from './Components/accueil_component/Accueil';
 import LivingRoom from './Pages/LivingRoom';
